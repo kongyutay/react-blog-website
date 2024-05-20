@@ -110,3 +110,22 @@ h2 {
   right: 0;
 }
 
+.img {
+  overflow: hidden;
+}
+
+.img img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+@media only screen and (max-width:768px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .left-content, .right-content {
+    width: 100%;
+    position: relative;
+  }
+}

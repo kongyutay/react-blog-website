@@ -3,6 +3,7 @@ import Slide from "../Slide/Slide";
 import Card from "./Card";
 import "../../App.css"
 import Footer from "../Footer/Footer";
+import CardTwo from "./CardTwo";
 
 const BlogHome = () => {
     const data = [
@@ -49,6 +50,7 @@ const BlogHome = () => {
                 <div className="right-content">
                     <Slide />
                     <Card />
+                    <CardTwo />
                     <Footer />
                 </div>
             </section>
