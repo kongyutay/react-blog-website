@@ -81,6 +81,11 @@ h2 {
 
 .left-content .text {
   width: 45%;
+  margin-top: 15%;
+}
+
+.left-content .text h1 {
+  font-size: 48px;
   line-height: 50px;
 }
 

@@ -1,5 +1,8 @@
 import React from "react";
 import Slide from "../Slide/Slide";
+import Card from "./Card";
+import "../../App.css"
+import Footer from "../Footer/Footer";
 
 const BlogHome = () => {
     const data = [
@@ -32,7 +35,7 @@ const BlogHome = () => {
                                     <span>{value.name}</span>
                                 </div>
                                 <div className="text text2">
-                                    <h1>{value.titletwo}</h1>
+                                    <h2>{value.titletwo}</h2>
                                     <p>{value.paraTwo}</p>
                                     <span>{value.subTitle}</span>
                                 </div>
@@ -45,6 +48,8 @@ const BlogHome = () => {
                 </div>
                 <div className="right-content">
                     <Slide />
+                    <Card />
+                    <Footer />
                 </div>
             </section>
         </>
